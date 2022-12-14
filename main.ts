@@ -1,4 +1,4 @@
-//% color="#ff0000" icon="f001"
+//% color="#ff0000" icon="\f001"
 namespace carol {
 
     //% block
