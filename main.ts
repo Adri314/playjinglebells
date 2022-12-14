@@ -2,7 +2,7 @@
 namespace carol {
     //% block
     export function playJingleBells() {
-        playJingleBells()
+        _playJingleBells()
     }
 }
 
@@ -36,7 +36,7 @@ function sleighOh () {
     music.playTone(392, music.beat(BeatFraction.Double))
     music.rest(music.beat(BeatFraction.Sixteenth))
 }
-function playJingleBells () {
+function _playJingleBells () {
     jingleBells()
     jingleBells()
     jingleAllTheWay()
