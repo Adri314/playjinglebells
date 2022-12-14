@@ -1,4 +1,4 @@
-//% color="#AA278D" weight=100
+//% color="#ff0000" weight=100 icon"\f001"
 namespace jinglebells {
     //% block
     export function playJingleBells() {
@@ -88,4 +88,3 @@ function ohWhatFunIt () {
     music.playTone(349, music.beat(BeatFraction.Whole))
     music.rest(music.beat(BeatFraction.Sixteenth))
 }
-playJingleBells()
