@@ -1,13 +1,3 @@
-//% color="#ff0000" icon="\uf0a4"
-namespace carol {
-
-    //% block
-    export function playJingleBells() {
-
-    }
-
-}
-
 function jingleAllTheWay () {
     music.playTone(330, music.beat(BeatFraction.Whole))
     music.rest(music.beat(BeatFraction.Sixteenth))
