@@ -1,3 +1,9 @@
+//% color="#AA278D" weight=100
+namespace jinglebells {
+    //% block
+    export function playJingleBells() {
+}
+    
 function jingleAllTheWay () {
     music.playTone(330, music.beat(BeatFraction.Whole))
     music.rest(music.beat(BeatFraction.Sixteenth))
