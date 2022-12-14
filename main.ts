@@ -1,7 +1,7 @@
 //% color="#AA278D" weight=100
 namespace carol {
     //% block
-    export function jingleBells() {
+    export function jingleAllTheWay() {
     }
 }
 
