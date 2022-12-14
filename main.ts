@@ -2,6 +2,7 @@
 namespace jinglebells {
     //% block
     export function playJingleBells() {
+    }
 }
     
 function jingleAllTheWay () {
