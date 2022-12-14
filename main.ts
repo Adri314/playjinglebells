@@ -1,8 +1,7 @@
 //% color="#AA278D" weight=100
 namespace carol {
     //% block
-    export function playJingleBells() {
-        aPlayJingleBells()
+    export function jingleBells() {
     }
 }
 
@@ -36,7 +35,7 @@ function sleighOh () {
     music.playTone(392, music.beat(BeatFraction.Double))
     music.rest(music.beat(BeatFraction.Sixteenth))
 }
-function aPlayJingleBells () {
+function playJingleBells () {
     jingleBells()
     jingleBells()
     jingleAllTheWay()
